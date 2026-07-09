@@ -10,14 +10,39 @@
     <div id="app">
         <header>
             <h1>Work Log</h1>
-            <div id="sync-status">Status: Initializing...</div>
+            <div class="header-controls">
+                <span id="sync-status">Status: Initializing...</span>
+                <button id="btn-sync-now" class="btn btn-primary" disabled>Sync Now</button>
+                <button id="btn-toggle-settings" class="btn">⚙️ Settings</button>
+            </div>
         </header>
+        
+        <section id="settings-panel" class="hidden">
+            <h2>GitHub Sync Configuration</h2>
+            <form id="sync-config-form">
+                <div class="form-group">
+                    <label for="config-repo">Repository Path (username/repo-name)</label>
+                    <input type="text" id="config-repo" required placeholder="e.g., janesmith/work-log">
+                </div>
+                <div class="form-group">
+                    <label for="config-branch">Branch</label>
+                    <input type="text" id="config-branch" value="main" required>
+                </div>
+                <div class="form-group">
+                    <label for="config-token">Fine-Grained PAT (Needs 'Contents: Read & Write' access)</label>
+                    <input type="password" id="config-token" required placeholder="github_pat_...">
+                </div>
+                <button type="submit" class="btn btn-success">Save Configuration</button>
+            </form>
+        </section>
+
         <main>
             </main>
     </div>
 
-    <script src="js/models.js"></script>
+    <script src="js/model.js"></script>
     <script src="js/data.js"></script>
+    <script src="js/sync.js"></script>
     <script src="js/app.js"></script>
 </body>
 </html>
