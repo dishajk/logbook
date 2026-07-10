@@ -12,6 +12,21 @@
     "status": "completed",
     "links": [],
     "notes": "",
-    "updatedAt": "2026-07-10T06:33:03.999Z"
+    "updatedAt": "2026-07-10T09:42:11.268Z"
+  },
+  {
+    "id": "8542db9d-c098-4635-b801-9247bcd7ffd3",
+    "monthKey": "2026-07",
+    "date": "2026-07-09T11:36:12.732Z",
+    "duration": 0,
+    "projectId": "c8df8cf8-dd4d-4059-b533-f728447b1d26",
+    "category": "Programming",
+    "description": "Set up IndexedDB schema and data models.",
+    "tags": [],
+    "people": [],
+    "status": "completed",
+    "links": [],
+    "notes": "",
+    "updatedAt": "2026-07-09T11:36:12.733Z"
   }
 ]
