@@ -1,0 +1,17 @@
+[
+  {
+    "id": "0b5cd0da-00c4-43a3-abb4-5667dad1ff3a",
+    "monthKey": "2026-07",
+    "date": "2026-07-10T00:00:00.000Z",
+    "duration": 20,
+    "projectId": "84cd289b-226a-43e5-8ba0-d66cd82761d6",
+    "category": "Administration",
+    "description": "send reimbursement email to accounts",
+    "tags": [],
+    "people": [],
+    "status": "completed",
+    "links": [],
+    "notes": "",
+    "updatedAt": "2026-07-10T06:33:03.999Z"
+  }
+]
