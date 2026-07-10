@@ -28,5 +28,20 @@
     "links": [],
     "notes": "",
     "updatedAt": "2026-07-09T11:36:12.733Z"
+  },
+  {
+    "id": "d8e1fd40-fe54-4245-84c5-bf347bc80428",
+    "monthKey": "2026-07",
+    "date": "2026-07-10T00:00:00.000Z",
+    "duration": 20,
+    "projectId": "6bd17de4-b168-4fa5-a96e-132c6a969014",
+    "category": "Administration",
+    "description": "Arrange materials",
+    "tags": [],
+    "people": [],
+    "status": "completed",
+    "links": [],
+    "notes": "",
+    "updatedAt": "2026-07-10T09:54:27.686Z"
   }
 ]
