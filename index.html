@@ -13,6 +13,7 @@
             <div class="header-controls">
                 <span id="sync-status">Status: Initializing...</span>
                 <button id="btn-sync-now" class="btn btn-primary" disabled>Sync Now</button>
+                <button id="btn-toggle-projects" class="btn">📁 Projects</button>
                 <button id="btn-toggle-settings" class="btn">⚙️ Settings</button>
             </div>
         </header>
@@ -36,13 +37,106 @@
             </form>
         </section>
 
-        <main>
-            </main>
+        <section id="projects-panel" class="hidden">
+            <h2>Manage Projects</h2>
+            <div class="project-split">
+                <form id="project-config-form">
+                    <div class="form-group">
+                        <label for="project-name">Project Name</label>
+                        <input type="text" id="project-name" required placeholder="e.g., Course Curriculum Redesign">
+                    </div>
+                    <div class="form-group">
+                        <label for="project-description">Description</label>
+                        <input type="text" id="project-description" placeholder="Brief notes about goals...">
+                    </div>
+                    <div class="form-group">
+                        <label for="project-color">Project Color Accent</label>
+                        <div class="color-picker-wrapper">
+                            <input type="color" id="project-color" value="#3b82f6">
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-success">Create Project</button>
+                </form>
+
+                <div class="project-list-wrapper">
+                    <h3>Active Projects</h3>
+                    <div id="active-projects-list" class="project-inline-list"></div>
+                </div>
+            </div>
+        </section>
+
+        <main class="dashboard-grid">
+            <section class="card quick-add-card">
+                <h2>Quick Add Work Entry</h2>
+                <form id="quick-add-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="entry-project">Project</label>
+                            <select id="entry-project" required></select>
+                        </div>
+                        <div class="form-group">
+                            <label for="entry-category">Category</label>
+                            <select id="entry-category" required>
+                                <option value="Administration">Administration</option>
+                                <option value="Teaching">Teaching</option>
+                                <option value="Research">Research</option>
+                                <option value="Outreach">Outreach</option>
+                                <option value="Programming">Programming</option>
+                                <option value="Writing">Writing</option>
+                                <option value="Meetings">Meetings</option>
+                                <option value="Travel">Travel</option>
+                                <option value="Procurement">Procurement</option>
+                                <option value="Finance">Finance</option>
+                                <option value="Personal Development">Personal Development</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="entry-description">What did you do?</label>
+                        <input type="text" id="entry-description" required placeholder="e.g., Prepared lecture slides for intro class">
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="entry-date">Date</label>
+                            <input type="date" id="entry-date" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="entry-duration">Duration (minutes)</label>
+                            <input type="number" id="entry-duration" value="30" min="0" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="entry-tags">Tags (comma-separated)</label>
+                            <input type="text" id="entry-tags" placeholder="lecture, slide-deck">
+                        </div>
+                        <div class="form-group">
+                            <label for="entry-people">People (comma-separated)</label>
+                            <input type="text" id="entry-people" placeholder="John Doe, Dr. Smith">
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary w-full">Log Work Item</button>
+                </form>
+            </section>
+
+            <div class="display-column">
+                <section class="card">
+                    <h2>Today's Activity Logs</h2>
+                    <div id="today-logs-container" class="logs-list">
+                        </div>
+                </section>
+            </div>
+        </main>
     </div>
 
     <script src="js/model.js"></script>
     <script src="js/data.js"></script>
     <script src="js/sync.js"></script>
+    <script src="js/ui.js"></script>
     <script src="js/app.js"></script>
 </body>
 </html>
