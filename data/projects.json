@@ -1,5 +1,14 @@
 [
   {
+    "id": "6bd17de4-b168-4fa5-a96e-132c6a969014",
+    "name": "ICTS-RRI Maths Circle",
+    "color": "#3b82f6",
+    "description": "",
+    "startDate": "2026-07-10T09:53:28.836Z",
+    "archived": false,
+    "updatedAt": "2026-07-10T09:53:28.836Z"
+  },
+  {
     "id": "84cd289b-226a-43e5-8ba0-d66cd82761d6",
     "name": "Everyday Science",
     "color": "#3b82f6",
