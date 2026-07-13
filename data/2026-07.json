@@ -30,6 +30,21 @@
     "updatedAt": "2026-07-09T11:36:12.733Z"
   },
   {
+    "id": "bbb54cf7-2f49-4fef-ba30-6646ae8b93ae",
+    "monthKey": "2026-07",
+    "date": "2026-07-13T00:00:00.000Z",
+    "duration": 240,
+    "projectId": "d204cf06-372d-453f-bfb1-91c29ad1c7c4",
+    "category": "Programming",
+    "description": "creating the rattleback",
+    "tags": [],
+    "people": [],
+    "status": "completed",
+    "links": [],
+    "notes": "",
+    "updatedAt": "2026-07-13T11:25:20.204Z"
+  },
+  {
     "id": "d8e1fd40-fe54-4245-84c5-bf347bc80428",
     "monthKey": "2026-07",
     "date": "2026-07-10T00:00:00.000Z",
