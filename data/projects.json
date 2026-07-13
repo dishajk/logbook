@@ -25,5 +25,14 @@
     "startDate": "2026-07-09T11:36:12.732Z",
     "archived": false,
     "updatedAt": "2026-07-09T11:36:12.732Z"
+  },
+  {
+    "id": "d204cf06-372d-453f-bfb1-91c29ad1c7c4",
+    "name": "School Exposure visit",
+    "color": "#3b82f6",
+    "description": "",
+    "startDate": "2026-07-13T11:24:39.696Z",
+    "archived": false,
+    "updatedAt": "2026-07-13T11:24:39.696Z"
   }
 ]
