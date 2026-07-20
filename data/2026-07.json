@@ -15,6 +15,21 @@
     "updatedAt": "2026-07-10T09:42:11.268Z"
   },
   {
+    "id": "14cc9e7a-8131-40ef-b7c2-ae58c6afbd01",
+    "monthKey": "2026-07",
+    "date": "2026-07-20T00:00:00.000Z",
+    "duration": 25,
+    "projectId": "84cd289b-226a-43e5-8ba0-d66cd82761d6",
+    "category": "Administration",
+    "description": "review poster",
+    "tags": [],
+    "people": [],
+    "status": "completed",
+    "links": [],
+    "notes": "",
+    "updatedAt": "2026-07-20T08:45:36.094Z"
+  },
+  {
     "id": "8542db9d-c098-4635-b801-9247bcd7ffd3",
     "monthKey": "2026-07",
     "date": "2026-07-09T11:36:12.732Z",
