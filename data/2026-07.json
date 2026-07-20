@@ -30,6 +30,21 @@
     "updatedAt": "2026-07-20T08:45:36.094Z"
   },
   {
+    "id": "6d2f487b-3f0c-42aa-b5c6-b4713ab34c0a",
+    "monthKey": "2026-07",
+    "date": "2026-07-20T00:00:00.000Z",
+    "duration": 45,
+    "projectId": "db3589ee-e914-471a-bce4-b710db4900c1",
+    "category": "Administration",
+    "description": "outreach slide for academic office",
+    "tags": [],
+    "people": [],
+    "status": "completed",
+    "links": [],
+    "notes": "",
+    "updatedAt": "2026-07-20T12:48:47.820Z"
+  },
+  {
     "id": "8542db9d-c098-4635-b801-9247bcd7ffd3",
     "monthKey": "2026-07",
     "date": "2026-07-09T11:36:12.732Z",
@@ -43,6 +58,36 @@
     "links": [],
     "notes": "",
     "updatedAt": "2026-07-09T11:36:12.733Z"
+  },
+  {
+    "id": "8903dd89-4181-4ffb-9912-ad7db2252043",
+    "monthKey": "2026-07",
+    "date": "2026-07-20T00:00:00.000Z",
+    "duration": 25,
+    "projectId": "84cd289b-226a-43e5-8ba0-d66cd82761d6",
+    "category": "Administration",
+    "description": "find speaker photo",
+    "tags": [],
+    "people": [],
+    "status": "completed",
+    "links": [],
+    "notes": "",
+    "updatedAt": "2026-07-20T12:46:50.964Z"
+  },
+  {
+    "id": "a9ec4f76-f9cf-4021-93f3-d2cac0494443",
+    "monthKey": "2026-07",
+    "date": "2026-07-20T00:00:00.000Z",
+    "duration": 45,
+    "projectId": "6bd17de4-b168-4fa5-a96e-132c6a969014",
+    "category": "Administration",
+    "description": "prepare interview schedule",
+    "tags": [],
+    "people": [],
+    "status": "completed",
+    "links": [],
+    "notes": "",
+    "updatedAt": "2026-07-20T12:47:08.108Z"
   },
   {
     "id": "bbb54cf7-2f49-4fef-ba30-6646ae8b93ae",
