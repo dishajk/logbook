@@ -45,6 +45,21 @@
     "updatedAt": "2026-07-20T12:48:47.820Z"
   },
   {
+    "id": "738a9b96-1a36-4475-abc3-910f0beec0f3",
+    "monthKey": "2026-07",
+    "date": "2026-07-20T00:00:00.000Z",
+    "duration": 300,
+    "projectId": "7d8155a6-bd42-4837-bb65-c5139bac87ce",
+    "category": "Research",
+    "description": "created a rattleback",
+    "tags": [],
+    "people": [],
+    "status": "completed",
+    "links": [],
+    "notes": "",
+    "updatedAt": "2026-07-20T13:01:30.264Z"
+  },
+  {
     "id": "8542db9d-c098-4635-b801-9247bcd7ffd3",
     "monthKey": "2026-07",
     "date": "2026-07-09T11:36:12.732Z",
