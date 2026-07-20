@@ -34,5 +34,14 @@
     "startDate": "2026-07-13T11:24:39.696Z",
     "archived": false,
     "updatedAt": "2026-07-20T08:44:26.677Z"
+  },
+  {
+    "id": "db3589ee-e914-471a-bce4-b710db4900c1",
+    "name": "Institute",
+    "color": "#3b82f6",
+    "description": "general requests from other departments",
+    "startDate": "2026-07-20T12:48:24.984Z",
+    "archived": false,
+    "updatedAt": "2026-07-20T12:48:24.984Z"
   }
 ]
