@@ -9,6 +9,15 @@
     "updatedAt": "2026-07-20T08:44:26.675Z"
   },
   {
+    "id": "7d8155a6-bd42-4837-bb65-c5139bac87ce",
+    "name": "Teaching",
+    "color": "#8ff0a4",
+    "description": "materials for teaching",
+    "startDate": "2026-07-20T13:00:44.619Z",
+    "archived": false,
+    "updatedAt": "2026-07-20T13:00:44.619Z"
+  },
+  {
     "id": "84cd289b-226a-43e5-8ba0-d66cd82761d6",
     "name": "Everyday Science",
     "color": "#3b82f6",
